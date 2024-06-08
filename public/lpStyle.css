@@ -1,0 +1,90 @@
+/* lpStyle.css */
+
+@font-face {
+    font-family: 'T1';
+    src: url('/fonts/soopafre.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'T2';
+    src: url('/fonts/kindergarten.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(250, 203, 73);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    font-size: 3m;
+    font-family: 'T1', sans-serif; /* Cambia la fuente del título principal */
+    letter-spacing: 5px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'T2', sans-serif;
+    letter-spacing: 5px; /* Ajusta el espacio entre las letras */
+    font-size: 3.5em; /* Ajusta el tamaño del título secundario */
+    background-color: rgba(0, 255, 213, 0.288);
+}
+
+#timer {
+    font-size: 19em; /* Ajusta el tamaño del temporizador */
+    margin: 20px 0;
+    color: #000; /* Cambia el color del temporizador a negro */
+    font-weight: bold; /* Establece el texto en negrita */
+}
+
+#promptInput {
+    margin-bottom: 30px;
+    padding: 10px; /* Ajusta el tamaño del cuadro de entrada */
+    font-size: 2em; /* Ajusta el tamaño del texto del cuadro de entrada */
+}
+
+/* Agrega más estilos según sea necesario */
+
+@keyframes timerAnimation {
+    0% {
+      transform: translateX(0) rotate(0deg);
+    }
+    50% {
+      transform: translateX(10px) rotate(5deg);
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+    }
+  }
+  
+  .timer-animation {
+    animation: timerAnimation 1s infinite;
+  }
+
+  #skipButton {
+    background-color: rgb(252, 201, 60); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 15px; /* Ajusta el espaciado interno del botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Añade bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+#skipButton:hover {
+    background-color: rgba(144, 135, 52, 0.078); /* Cambia el color de fondo al pasar sobre el botón */
+}

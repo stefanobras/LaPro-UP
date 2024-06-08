@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "open": "^9.1.0",
+    "opn": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node server"
+  }
+}
