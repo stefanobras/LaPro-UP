@@ -1,5 +1,5 @@
 # LaPro-UP
-Personal College Project.
+Personal College Project / Visual Support for Live Performance.
 
 This code served as visual support for a live performance at the Universidad de Palermo of an interactive work titled "La Procrastinación" which utilized a straightforward JavaScript interface integrated with Ableton Live. 
 
